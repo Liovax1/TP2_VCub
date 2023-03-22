@@ -7,7 +7,7 @@
 QT       += core gui webenginewidgets
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QtVCubSnir
+TARGET = QtVCubTP2_etudiant
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
