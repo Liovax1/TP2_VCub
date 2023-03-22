@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>VeloClassique_50.jpg</file>
+        <file>VeloElec_50.jpg</file>
+    </qresource>
+</RCC>
