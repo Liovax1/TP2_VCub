@@ -26,15 +26,20 @@ CONFIG += c++11
 CONFIG+=use_gold_linker
 
 SOURCES += main.cpp\
+    CSeuilAlarme/cseuilalarme.cpp \
+    DialogCSeuilAlarme/dialogcseuilalarme.cpp \
         mainwindow.cpp \
     cstationvcub.cpp \
     cstationvcubmanager.cpp
 
 HEADERS  += mainwindow.h \
+    CSeuilAlarme/cseuilalarme.h \
+    DialogCSeuilAlarme/dialogcseuilalarme.h \
     cstationvcub.h \
     cstationvcubmanager.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    DialogCSeuilAlarme/dialogcseuilalarme.ui
 
 RESOURCES += \
     images.qrc
