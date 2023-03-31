@@ -20,7 +20,7 @@ public:
 
     const QColor &getPCouleurHorsAlarme() const;
     void setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme);
-    CSeuilAlarme(int pSeuilAlarme, QColor pCouleurAlarme, QColor pCouleurHorsAlarme, QDialog *parent = 0);
+    CSeuilAlarme(int SeuilAlarme, QColor CouleurAlarme, QColor CouleurHorsAlarme, QDialog *parent = 0);
 
 private :
 

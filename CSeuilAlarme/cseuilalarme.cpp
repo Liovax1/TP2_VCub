@@ -35,8 +35,12 @@ void CSeuilAlarme::setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme)
     pCouleurHorsAlarme = newPCouleurHorsAlarme;
 }
 
-CSeuilAlarme::CSeuilAlarme(int pSeuilAlarme, QColor pCouleurAlarme, QColor pCouleurHorsAlarme, QDialog *parent)
+CSeuilAlarme::CSeuilAlarme(int seuilAlarme, QColor couleurAlarme, QColor couleurHorsAlarme, QDialog *parent)
 {
+
+  pSeuilAlarme = seuilAlarme;
+  pCouleurAlarme = couleurAlarme;
+  pCouleurHorsAlarme = couleurHorsAlarme;
 
 }
 
