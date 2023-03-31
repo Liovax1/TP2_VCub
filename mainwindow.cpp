@@ -2,8 +2,8 @@
 /// \file       mainwindow.cpp
 /// \authors
 ///     Professeur  : Patrice Speziali
-///     Etudiant    :
-/// \date      23/02/2018
+///     Etudiant    : Liova Hovakimyan
+/// \date      31/03/2023
 /// \version    1.0
 ///
 /// \brief      Programme permettant d'afficher les information d'une sation de

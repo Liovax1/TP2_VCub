@@ -15,4 +15,24 @@ void CSeuilAlarme::setPSeuilAlarme(int newPSeuilAlarme)
     pSeuilAlarme = newPSeuilAlarme;
 }
 
-//CSeuilAlarme::
+const QColor &CSeuilAlarme::getPCouleurAlarme() const
+{
+    return pCouleurAlarme;
+}
+
+void CSeuilAlarme::setPCouleurAlarme(const QColor &newPCouleurAlarme)
+{
+    pCouleurAlarme = newPCouleurAlarme;
+}
+
+const QColor &CSeuilAlarme::getPCouleurHorsAlarme() const
+{
+    return pCouleurHorsAlarme;
+}
+
+void CSeuilAlarme::setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme)
+{
+    pCouleurHorsAlarme = newPCouleurHorsAlarme;
+}
+
+

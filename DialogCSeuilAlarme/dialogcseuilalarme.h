@@ -14,6 +14,7 @@ class DialogCSeuilAlarme : public QDialog
 public:
     explicit DialogCSeuilAlarme(QWidget *parent = nullptr);
     ~DialogCSeuilAlarme();
+    DialogCSeuilAlarme(int pSeuilAlarme, QColor pCouleurAlarme, QColor pCouleurHorsAlarme, QDialog *parent = 0);
 
 private:
     Ui::DialogCSeuilAlarme *ui;

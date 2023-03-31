@@ -2,8 +2,8 @@
 /// \file       cstationvcubManager.cpp
 /// \authors
 ///     Professeur  : Patrice Speziali
-///     Etudiant    :
-/// \date      23/02/2018
+///     Etudiant    : Liova Hovakimyan
+/// \date      31/03/2023
 /// \version    1.0
 ///
 /// \brief      Interrogation du web service open data de bordeaux métropole pour récupérer

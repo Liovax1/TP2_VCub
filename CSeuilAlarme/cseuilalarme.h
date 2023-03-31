@@ -10,9 +10,15 @@ class CSeuilAlarme : public QObject
 
 public:
     CSeuilAlarme();
-
+    CSeuilAlarme(int seuilAlarme, QColor couleurAlarme, QColor couleurHorsAlarme);
     int getPSeuilAlarme() const;
     void setPSeuilAlarme(int newPSeuilAlarme);
+
+    const QColor &getPCouleurAlarme() const;
+    void setPCouleurAlarme(const QColor &newPCouleurAlarme);
+
+    const QColor &getPCouleurHorsAlarme() const;
+    void setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme);
 
 private :
 
