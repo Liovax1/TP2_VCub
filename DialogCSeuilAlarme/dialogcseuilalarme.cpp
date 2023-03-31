@@ -12,8 +12,3 @@ DialogCSeuilAlarme::~DialogCSeuilAlarme()
 {
     delete ui;
 }
-
-DialogCSeuilAlarme::DialogCSeuilAlarme(int pSeuilAlarme, QColor pCouleurAlarme, QColor pCouleurHorsAlarme, QDialog *parent)
-{
-
-}

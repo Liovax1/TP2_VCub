@@ -3,6 +3,7 @@
 
 #include <QColor>
 #include <QObject>
+#include <QDialog>
 
 class CSeuilAlarme : public QObject
 {
@@ -19,6 +20,7 @@ public:
 
     const QColor &getPCouleurHorsAlarme() const;
     void setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme);
+    CSeuilAlarme(int pSeuilAlarme, QColor pCouleurAlarme, QColor pCouleurHorsAlarme, QDialog *parent = 0);
 
 private :
 
