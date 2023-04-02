@@ -1,5 +1,6 @@
 #include "dialogcseuilalarme.h"
 #include "ui_dialogcseuilalarme.h"
+#include "cseuilalarme.h"
 
 DialogCSeuilAlarme::DialogCSeuilAlarme(QWidget *parent) :
     QDialog(parent),

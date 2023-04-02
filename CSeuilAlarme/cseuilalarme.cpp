@@ -1,4 +1,5 @@
 #include "cseuilalarme.h"
+#include "dialogcseuilalarme.h"
 
 CSeuilAlarme::CSeuilAlarme()
 {
