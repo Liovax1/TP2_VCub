@@ -16,13 +16,19 @@ class DialogCSeuilAlarme : public QDialog
 
 public:
     explicit DialogCSeuilAlarme(QWidget *parent = nullptr);
+    DialogCSeuilAlarme(Ui::DialogCSeuilAlarme *ui);
+    DialogCSeuilAlarme(Ui::DialogCSeuilAlarme *ui);
     ~DialogCSeuilAlarme();
 
-    const QColor &getPColorAlarme() const;
-    void setPColorAlarme(const QColor &newPColorAlarme);
+    Ui::DialogCSeuilAlarme *getUi() const;
+    void setUi(Ui::DialogCSeuilAlarme *newUi);
 
-    const QColor &getPColorNoAlarme() const;
-    void setPColorNoAlarme(const QColor &newPColorNoAlarme);
+
+    const QColor &getPCouleurAlarme() const;
+    void setPCouleurAlarme(const QColor &newPCouleurAlarme);
+
+    const QColor &getPCouleurHorsAlarme() const;
+    void setPCouleurHorsAlarme(const QColor &newPCouleurHorsAlarme);
 
 private slots:
     void on_pushButton_released();
@@ -31,8 +37,10 @@ private slots:
 
 private:
     Ui::DialogCSeuilAlarme *ui;
-    QColor pColorAlarme;
-    QColor pColorNoAlarme;
+    QColor pCouleurAlarme;
+    QColor pCouleurHorsAlarme;
+    CSeuilAlarme *pSeuilAlarme;
+    CSeuilAlarme *pSeuilHorsAlarme;
 
 
 };
